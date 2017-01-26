@@ -74,6 +74,9 @@
                                     <constraint firstAttribute="width" constant="150" id="oQ1-P6-K7n"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8M-If-Tun"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lwy-5u-fSQ" customClass="FancyField" customModule="ZaimaSocial" customModuleProvider="target">
                                 <rect key="frame" x="36" y="369" width="303" height="30"/>
